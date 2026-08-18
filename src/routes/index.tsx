@@ -14,7 +14,7 @@ import {
 
 const title = "Marketing Manager — Gestión de redes sociales con IA";
 const description =
-  "Genera contenido con agentes de IA y publícalo con un clic en Instagram, LinkedIn, Facebook, Threads, X, TikTok y YouTube. Comienza gratis.";
+  "Genera contenido con agentes de IA y publícalo con un clic en Instagram, LinkedIn, Facebook, Threads y YouTube. Comienza gratis.";
 
 export const Route = createFileRoute("/")({
   component: Index,

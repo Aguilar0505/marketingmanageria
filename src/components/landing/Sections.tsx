@@ -30,8 +30,8 @@ const features = [
   },
   {
     Icon: Send,
-    title: "Publicación en 7 redes con un clic",
-    text: "Revisa, aprueba y publica en Instagram, LinkedIn, Facebook, Threads, Twitter, TikTok y YouTube desde un mismo panel.",
+    title: "Publicación en 5 redes con un clic",
+    text: "Revisa, aprueba y publica en Instagram, LinkedIn, Facebook, Threads y YouTube desde un mismo panel.",
   },
   {
     Icon: AudioLines,
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "¿En qué redes puedo publicar?",
-    a: "Instagram, Facebook, LinkedIn, X (Twitter), Threads, TikTok y YouTube, desde un mismo panel.",
+    a: "Instagram, Facebook, LinkedIn, Threads y YouTube, desde un mismo panel.",
   },
   {
     q: "¿Puedo gestionar varias marcas o clientes?",
@@ -157,13 +157,13 @@ export function SocialSection() {
   return (
     <section id="redes-sociales" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-24">
       <Reveal className="max-w-2xl">
-        <h2 className="text-3xl font-semibold sm:text-4xl">Publica en 7 redes</h2>
+        <h2 className="text-3xl font-semibold sm:text-4xl">Publica en 5 redes</h2>
         <p className="mt-4 text-muted-foreground">
           Un contenido, adaptado al formato de cada plataforma.
         </p>
       </Reveal>
 
-      <ul className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
+      <ul className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         {socialNetworks.map(({ name, Icon, detail }, i) => (
           <Reveal as="li" key={name} delay={i * 50}>
             <div className="flex h-full flex-col items-center gap-2 rounded-2xl border border-border bg-card p-5 text-center transition-colors hover:border-accent/60">
