@@ -26,13 +26,6 @@ export function LinkedinIcon(props: IconProps) {
   );
 }
 
-export function XIcon(props: IconProps) {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
-      <path d="M17.5 3h3.2l-7 8 8.3 10h-6.5l-5-6.1L4.6 21H1.4l7.5-8.6L1 3h6.7l4.6 5.6L17.5 3Zm-1.1 16.1h1.8L7.7 4.8H5.8l10.6 14.3Z" />
-    </svg>
-  );
-}
 
 export function ThreadsIcon(props: IconProps) {
   return (
