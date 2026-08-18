@@ -1,7 +1,7 @@
 import { Sparkles } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import mockup from "@/assets/app-mockup.jpg";
+import mockup from "@/assets/app-mockup.png.asset.json";
 
 export function Hero() {
   return (
@@ -35,10 +35,10 @@ export function Hero() {
             aria-hidden="true"
           />
           <img
-            src={mockup}
-            width={1408}
-            height={1008}
-            alt="Panel de Marketing Manager con el chat de IA y la vista previa de publicaciones para Instagram y LinkedIn"
+            src={mockup.url}
+            width={1869}
+            height={1001}
+            alt="Panel de Marketing Manager con la configuración de marca y el chat de IA"
             className="relative rounded-2xl border border-border shadow-[var(--shadow-glow)]"
           />
         </div>
