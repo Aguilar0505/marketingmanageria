@@ -1,6 +1,5 @@
 import {
   AudioLines,
-  Bot,
   Building2,
   MessageSquareText,
   Send,
@@ -18,11 +17,6 @@ import { Reveal } from "./Reveal";
 import { socialNetworks } from "./SocialIcons";
 
 const features = [
-  {
-    Icon: Bot,
-    title: "Agentes de IA personalizables",
-    text: "Crea agentes con modelo Gemini (2.0 Flash, 2.0 Pro, 2.5 Flash, 2.5 Pro, 3.5 Flash), temperatura ajustable y system prompt propio para el tono de marca.",
-  },
   {
     Icon: MessageSquareText,
     title: "Chat que genera contenido",
