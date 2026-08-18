@@ -163,7 +163,7 @@ export function SocialSection() {
         </p>
       </Reveal>
 
-      <ul className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-7">
+      <ul className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         {socialNetworks.map(({ name, Icon, detail }, i) => (
           <Reveal as="li" key={name} delay={i * 50}>
             <div className="flex h-full flex-col items-center gap-2 rounded-2xl border border-border bg-card p-5 text-center transition-colors hover:border-accent/60">
