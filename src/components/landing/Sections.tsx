@@ -30,8 +30,8 @@ const features = [
   },
   {
     Icon: Send,
-    title: "Publicación en 7 redes con un clic",
-    text: "Revisa, aprueba y publica en Instagram, LinkedIn, Facebook, Threads, Twitter, TikTok y YouTube desde un mismo panel.",
+    title: "Publicación en 5 redes con un clic",
+    text: "Revisa, aprueba y publica en Instagram, LinkedIn, Facebook, Threads y YouTube desde un mismo panel.",
   },
   {
     Icon: AudioLines,
@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     q: "¿En qué redes puedo publicar?",
-    a: "Instagram, Facebook, LinkedIn, X (Twitter), Threads, TikTok y YouTube, desde un mismo panel.",
+    a: "Instagram, Facebook, LinkedIn, Threads y YouTube, desde un mismo panel.",
   },
   {
     q: "¿Puedo gestionar varias marcas o clientes?",
@@ -157,7 +157,7 @@ export function SocialSection() {
   return (
     <section id="redes-sociales" className="mx-auto max-w-6xl scroll-mt-20 px-5 py-24">
       <Reveal className="max-w-2xl">
-        <h2 className="text-3xl font-semibold sm:text-4xl">Publica en 7 redes</h2>
+        <h2 className="text-3xl font-semibold sm:text-4xl">Publica en 5 redes</h2>
         <p className="mt-4 text-muted-foreground">
           Un contenido, adaptado al formato de cada plataforma.
         </p>
