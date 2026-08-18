@@ -1,0 +1,69 @@
+import type { SVGProps } from "react";
+
+type IconProps = SVGProps<SVGSVGElement>;
+
+export function InstagramIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.05 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.68.8.9 1.4.17.4.37 1 .42 2.2.06 1.3.07 1.7.07 4.9s0 3.6-.07 4.9c-.05 1.2-.25 1.8-.42 2.2-.22.6-.5 1-.9 1.4-.4.4-.8.68-1.4.9-.4.17-1 .37-2.2.42-1.3.06-1.7.07-4.9.07s-3.6 0-4.9-.07c-1.2-.05-1.8-.25-2.2-.42-.6-.22-1-.5-1.4-.9-.4-.4-.68-.8-.9-1.4-.17-.4-.37-1-.42-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.07-4.9c.05-1.2.25-1.8.42-2.2.22-.6.5-1 .9-1.4.4-.42.8-.68 1.4-.9.4-.17 1-.37 2.2-.42C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.8.07-1.1.05-1.7.24-2.1.4-.5.2-.9.44-1.3.84-.4.4-.64.8-.84 1.3-.16.4-.35 1-.4 2.1C2.5 10 2.5 10.4 2.5 12s0 2 .06 3.3c.05 1.1.24 1.7.4 2.1.2.5.44.9.84 1.3.4.4.8.64 1.3.84.4.16 1 .35 2.1.4 1.3.06 1.7.06 4.8.06s3.5 0 4.8-.06c1.1-.05 1.7-.24 2.1-.4.5-.2.9-.44 1.3-.84.4-.4.64-.8.84-1.3.16-.4.35-1 .4-2.1.06-1.3.06-1.7.06-3.3s0-2-.06-3.3c-.05-1.1-.24-1.7-.4-2.1a3.5 3.5 0 0 0-.84-1.3c-.4-.4-.8-.64-1.3-.84-.4-.16-1-.35-2.1-.4C15.5 4 15.1 4 12 4Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 1.8a3.1 3.1 0 1 0 0 6.2 3.1 3.1 0 0 0 0-6.2Zm5.2-3.2a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z" />
+    </svg>
+  );
+}
+
+export function FacebookIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.5V12h2.5V9.8c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12Z" />
+    </svg>
+  );
+}
+
+export function LinkedinIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6.5 0h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.6c0-1.34-.02-3.06-1.9-3.06-1.9 0-2.2 1.45-2.2 2.96V21h-4V9Z" />
+    </svg>
+  );
+}
+
+export function XIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M17.5 3h3.2l-7 8 8.3 10h-6.5l-5-6.1L4.6 21H1.4l7.5-8.6L1 3h6.7l4.6 5.6L17.5 3Zm-1.1 16.1h1.8L7.7 4.8H5.8l10.6 14.3Z" />
+    </svg>
+  );
+}
+
+export function ThreadsIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M16.5 11.4c-.1-.05-.2-.1-.3-.14-.18-3.2-1.93-5.04-4.86-5.06h-.04c-1.76 0-3.22.75-4.12 2.11l1.62 1.1c.67-1.01 1.72-1.23 2.5-1.23h.03c.97 0 1.7.29 2.17.84.34.4.57 1 .68 1.73a12.4 12.4 0 0 0-2.77-.13c-2.8.16-4.6 1.78-4.48 4.04.06 1.14.63 2.13 1.6 2.78.83.55 1.9.82 3.01.76 1.47-.08 2.62-.64 3.42-1.66.61-.78.99-1.78 1.16-3.05.7.42 1.21.98 1.5 1.65.48 1.14.51 3-1.02 4.53-1.34 1.34-2.95 1.92-5.4 1.94-2.71-.02-4.76-.89-6.09-2.58C4.86 17.5 4.22 15.24 4.2 12.4c.02-2.85.66-5.11 1.9-6.7C7.43 4.02 9.48 3.15 12.2 3.13c2.73.02 4.82.9 6.2 2.6.68.84 1.19 1.9 1.53 3.12l1.9-.5c-.41-1.51-1.06-2.82-1.94-3.9C18.14 2.24 15.53 1.13 12.2 1.11h-.01C8.87 1.13 6.3 2.25 4.6 4.47 3.08 6.45 2.3 9.2 2.27 12.4c.03 3.2.81 5.95 2.33 7.93 1.7 2.22 4.27 3.34 7.6 3.36h.01c2.96-.02 5.05-.8 6.77-2.52 2.25-2.25 2.18-5.07 1.44-6.8-.54-1.25-1.55-2.26-2.92-2.97Zm-4.9 5.83c-1.23.07-2.5-.48-2.57-1.66-.05-.88.62-1.86 2.65-1.98.23-.01.46-.02.68-.02.74 0 1.43.07 2.06.21-.23 2.93-1.6 3.4-2.82 3.45Z" />
+    </svg>
+  );
+}
+
+export function TiktokIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M16.6 2h-3.1v13.3a2.6 2.6 0 1 1-2.6-2.6c.24 0 .47.03.7.09v-3.2a5.9 5.9 0 0 0-.7-.04A5.8 5.8 0 1 0 16.6 15V8.6a7 7 0 0 0 4.1 1.3V6.8a3.9 3.9 0 0 1-4.1-3.9V2Z" />
+    </svg>
+  );
+}
+
+export function YoutubeIcon(props: IconProps) {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" {...props}>
+      <path d="M21.6 7.2a2.5 2.5 0 0 0-1.77-1.77C18.25 5 12 5 12 5s-6.25 0-7.83.43A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.77 1.77C5.75 19 12 19 12 19s6.25 0 7.83-.43a2.5 2.5 0 0 0 1.77-1.77A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8ZM10 15.1V8.9l5.2 3.1-5.2 3.1Z" />
+    </svg>
+  );
+}
+
+export const socialNetworks = [
+  { name: "Instagram", Icon: InstagramIcon, detail: "Carruseles y posts" },
+  { name: "Facebook", Icon: FacebookIcon, detail: "Publicaciones de página" },
+  { name: "LinkedIn", Icon: LinkedinIcon, detail: "Posts profesionales" },
+  { name: "X (Twitter)", Icon: XIcon, detail: "Tweets e hilos" },
+  { name: "Threads", Icon: ThreadsIcon, detail: "Hilos conversacionales" },
+  { name: "TikTok", Icon: TiktokIcon, detail: "Vídeos con escenas" },
+  { name: "YouTube", Icon: YoutubeIcon, detail: "Reels y shorts" },
+];
