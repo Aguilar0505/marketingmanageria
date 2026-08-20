@@ -25,7 +25,7 @@ export function Navbar() {
             alt="Marketing Manager"
             width={1488}
             height={716}
-            className="h-7 w-auto"
+            className="h-10 w-auto"
             aria-hidden="true"
           />
           Marketing Manager
