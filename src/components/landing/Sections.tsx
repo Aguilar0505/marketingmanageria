@@ -14,6 +14,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import logoAsset from "@/assets/MarketingManager.jpg.asset.json";
+import { Reveal } from "./Reveal";
 import { socialNetworks } from "./SocialIcons";
 
 const features = [
