@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/MarketingManager.jpg.asset.json";
 
 const links = [
   { href: "#funciones", label: "Funciones" },
