@@ -200,7 +200,7 @@ export function Faq() {
 export function Footer() {
   const columns = [
     { title: "Producto", links: ["Funciones", "Precios", "Redes"] },
-    { title: "Compañía", links: ["Sobre nosotros", "Contacto"] },
+    { title: "Contacto", links: ["Tel: (656) 215 0842", "marketing@merkatics.com"] },
     { title: "Legal", links: ["Términos", "Privacidad"] },
   ];
 
@@ -214,12 +214,10 @@ export function Footer() {
               alt="Marketing Manager"
               width={1488}
               height={716}
-              className="h-7 w-auto"
+              className="h-10 w-auto"
               aria-hidden="true"
             />
-            Marketing Manager
           </div>
-          <p className="mt-3 text-sm text-muted-foreground">Resultados.</p>
         </div>
         {columns.map((col) => (
           <div key={col.title}>
