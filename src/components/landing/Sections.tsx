@@ -209,7 +209,14 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2 font-display font-semibold">
-            <span className="bg-brand size-7 rounded-lg" aria-hidden="true" />
+            <img
+              src={logoAsset.url}
+              alt="Marketing Manager"
+              width={1488}
+              height={716}
+              className="h-7 w-auto"
+              aria-hidden="true"
+            />
             Marketing Manager
           </div>
           <p className="mt-3 text-sm text-muted-foreground">Resultados.</p>
