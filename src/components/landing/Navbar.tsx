@@ -22,9 +22,9 @@ export function Navbar() {
         <a href="#inicio" className="flex items-center gap-2 font-display text-base font-semibold">
           <img
             src={logoAsset.url}
-            alt="Merkatics"
-            width={120}
-            height={48}
+            alt="Marketing Manager"
+            width={1488}
+            height={716}
             className="h-7 w-auto"
             aria-hidden="true"
           />
