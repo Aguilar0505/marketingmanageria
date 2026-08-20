@@ -13,7 +13,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Reveal } from "./Reveal";
+import logoAsset from "@/assets/MarketingManager.jpg.asset.json";
 import { socialNetworks } from "./SocialIcons";
 
 const features = [
